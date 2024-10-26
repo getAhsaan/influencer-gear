@@ -1,0 +1,23 @@
+@media only screen and (max-width:576px) {
+
+    /* mobile navbar  */
+    .navbar-container {
+        display: none;
+    }
+
+    .mobile-navbar-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mobile-menu-logo h4 {
+        color: #3A3A3A;
+        font-feature-settings: 'liga' off, 'clig' off;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
