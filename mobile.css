@@ -53,4 +53,21 @@
 
 
     }
+
+    /* sponsor section  */
+    .sponsor-section{
+        margin-top: 50px;
+    }
+    .sponsor-container svg{
+        display: none;
+    }
+    .sponsor-logo-container {
+        gap: 30px;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .sponsor-logo-container img {
+        max-width: 60px;
+    }
 }
