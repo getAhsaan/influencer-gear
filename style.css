@@ -58,3 +58,82 @@ body {
 .mobile-navbar-container {
     display: none;
 }
+
+/* hero section  */
+.hero-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text h1 {
+    max-width: 582px;
+    color: #3A3A3A;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    /* 134.615% */
+}
+
+.hero-text p {
+    max-width: 505px;
+    color: #3A3A3A;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 16px 0;
+}
+
+.hero-button {
+    margin-top: 32px;
+}
+
+.hero-button button {
+
+    border-radius: 41px;
+    background: #E02C6D;
+    border: 1px solid transparent;
+    outline: none;
+    padding: 10px 24px;
+
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+
+    color: #FFF;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    cursor: pointer;
+
+}
+
+.hero-button button:hover {
+    background-color: #bd0a4c;
+    transition: all 0.3s;
+    border: 1px solid black;
+    gap: 12px;
+}
+
+.hero-img {
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 30px;
+}
+
+.hero-img img {
+    width: 100%;
+}

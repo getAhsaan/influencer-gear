@@ -20,4 +20,37 @@
         font-weight: 700;
         line-height: normal;
     }
+
+    /* hero section  */
+    .hero-container {
+        margin-top: 0;
+        flex-direction: column-reverse;
+    }
+
+    .hero-img {
+        background-size: contain;
+        margin: 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .hero-text p {
+        text-align: center;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 15px 0;
+    }
+
+    .hero-button {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
 }
