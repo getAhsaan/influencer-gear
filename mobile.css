@@ -55,12 +55,14 @@
     }
 
     /* sponsor section  */
-    .sponsor-section{
+    .sponsor-section {
         margin-top: 50px;
     }
-    .sponsor-container svg{
+
+    .sponsor-container svg {
         display: none;
     }
+
     .sponsor-logo-container {
         gap: 30px;
         padding: 0;
@@ -69,5 +71,20 @@
 
     .sponsor-logo-container img {
         max-width: 60px;
+    }
+
+    /* collection section  */
+    .collection-section h3 {
+        font-size: 16px;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+
+    .gallery-container {
+        gap: 15px;
+    }
+
+    .collection-section .button {
+        margin-top: 30px;
     }
 }
