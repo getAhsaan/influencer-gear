@@ -116,4 +116,26 @@
     .feature-img-container img {
         width: 299px;
     }
+
+    /* footer section  */
+    .footer-container {
+        margin-top: 50px;
+    }
+
+    .footer-container h4 {
+        font-size: 16px;
+    }
+
+    .footer-container p {
+        font-size: 12px;
+    }
+
+    .social-link {
+        margin-top: 10px;
+    }
+
+    .social-link svg {
+        width: 24px;
+        height: 24px;
+    }
 }
