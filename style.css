@@ -194,7 +194,8 @@ main {
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     border: 1px solid transparent;
 }
-.gallery-card-container:hover{
+
+.gallery-card-container:hover {
     border: 1px solid #E02C6D;
     cursor: pointer;
 }
@@ -281,4 +282,70 @@ main {
 
 .collection-section .button button:hover {
     border: 1px solid rgba(224, 44, 109, 0.87);
+}
+
+/* feature section  */
+.feature-section {
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 96px;
+
+}
+
+.feature-text-container h3 {
+    color: #0A0826;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 157.895% */
+}
+
+.feature-text-container p {
+    color: #6C6C6C;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 175% */
+    margin: 16px 0;
+    max-width: 501px;
+}
+
+.feature-text-container .button {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.feature-text-container .button button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    color: #FFF;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    padding: 10px 24px;
+    background: #E02C6D;
+    border: 1px solid transparent;
+}
+
+.feature-text-container button:hover {
+    border: 1px solid black;
+    gap: 12px;
+    transition: all 0.3s;
 }
